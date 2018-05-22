@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>课程表</title>
+
+<link rel="stylesheet" type="text/css" href="main.css">
+<script src="https://cdn.bootcss.com/vue/2.2.2/vue.min.js"></script>
+
+</head>
+
+<body>
+	<div id="app">
+		<form action="demo.html">
+			<button type="submit"class="innerbox">她的课表</button>
+	
+	</div>
+	<script >
+		new vue({
+       el:'#app'
+       method:{
+       submitform:function(e){
+       	alert('submit');
+       }
+       }
+		})
+	</script>
+
+<div class="box">
+
+<div class="title">我的课表</div>
+<table>
+<tr class="special">
+ <th>时间</th>
+<th>周一</th>
+<th>周二</th>
+<th>周三</th>
+<th>周四</th>
+<th>周五</th>
+<th>周六</th>
+<th>周日</th>
+</tr>
+<tr class="special2">
+	<td>8:00-9:40</td>
+<td>可编程控制技术</td>
+<td>网络互联技术</td>
+<td>嵌入式应用开发</td>
+<td>职业素养与道德</td>
+<td>嵌入式应用开发</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="special">
+	<td>10:00-11:40</td>
+<td>网络互联</td>
+<td>嵌入式应用开发</td>
+<td>视觉图像处理</td>
+<td>智能控制</td>
+<td>智能控制</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="special2">
+	<td>14:00-15:40</td>
+<td>视觉图像处理</td>
+<td>网络互联技术</td>
+<td></td>
+<td>嵌入式应用开发</td>
+<td>思修</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="special">
+	<td>16:00-17:40</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+</div>
+</body>
+</html>

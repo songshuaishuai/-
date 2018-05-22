@@ -1,0 +1,16 @@
+<style type="text/css">
+
+/*body{background:#99ff99}*/
+.box{width:110%;height:600px;border:solid 1px black}
+.innerbox{width:15%; height:50px; 
+margin:30px auto}
+.innerbox:{box-shadow:0 0 500px #33ff00;transition:2s}
+.title{width:90%; height:60px; text-align:center; margin-top:20px ; padding:20px;
+font-family:楷体;font-size:1.5cm;
+}
+
+table{width:90%;height: 300px ;margin:30px; border-collapse:collapse}
+th{border:1px solid black}
+tr,td{border:1px solid black}
+
+</style>
